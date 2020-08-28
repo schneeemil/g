@@ -1,0 +1,104 @@
+h2.title-box {
+    margin-top: 40px;
+}
+
+div.box {
+    width: 90%;
+    margin-left: 5%;
+    left: 0;
+}
+
+table {
+    position: relative;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+th {
+    padding-bottom: 5px;
+    transition: ease-in-out 250ms;
+    padding-left: 10px;
+}
+
+td {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid black;
+    border-spacing: 0;
+    overflow: hidden;
+    padding-left: 15px;
+    transition: ease-in-out 250ms;
+}
+
+table th:hover {
+    color: rgb(0, 71, 133);
+}
+
+table td:hover {
+    color: rgb(0, 71, 133);
+}
+
+td.register_td {
+    padding-left: 80px;
+    padding-right: 15px;
+}
+
+button {
+    position: absolute;
+    border: none;
+    background-color: #e5e5e5;
+    width: 110px;
+    padding: 6px;
+    height: 40px;
+    border-radius: 3px;
+    font-family: 'Rubik';
+    font-weight: 450;
+    color: black;
+    left: 50%;
+    margin-left: -80px;
+    transition: ease-in-out 250ms;
+}
+
+button.register {
+    position: relative;
+}
+
+input.submit {
+    margin-top: 45px;
+}
+
+textarea {
+    outline: none;
+    resize: none;
+    background-color: white;
+}
+
+button.reset {
+    width: 120px;
+    height: 30px;
+    margin-left: -60px;
+    margin-top: 40px;
+    border: none;
+}
+
+button:hover,select:hover {
+    background-color: rgba(0, 53, 100, 0.158);
+}
+
+button.grey {
+    background-color: #e5e5e5;
+    color: gray;
+}
+
+button.grey:hover {
+    background-color: #e5e5e5;
+}
+
+@media screen and (max-width: 1300px) {
+    div.box {
+        width: 96%;
+        margin-left: 1%;
+    }
+}
